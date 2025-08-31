@@ -28,10 +28,12 @@
     "style:check": "prettier --check 'src/**/*.ts' 'test/**/*.ts'",
     "style:fix": "prettier --write 'src/**/*.ts' 'test/**/*.ts'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:functional": "jest --projects ./test --runInBand"
+    "test:functional": "jest --projects ./test --runInBand",
+    "test:unit": "jest"
   },
   "packageManager": "yarn@4.9.4",
   "devDependencies": {
+    "@types/axios": "^0.14.4",
     "@types/body-parser": "^1.19.6",
     "@types/cookiejar": "^2",
     "@types/express": "^5.0.3",
@@ -68,6 +70,7 @@
   },
   "dependencies": {
     "@overnightjs/core": "^1.7.6",
+    "axios": "^1.11.0",
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "module-alias": "^2.2.3"
