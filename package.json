@@ -35,6 +35,7 @@
   "devDependencies": {
     "@types/axios": "^0.14.4",
     "@types/body-parser": "^1.19.6",
+    "@types/config": "^3.3.5",
     "@types/cookiejar": "^2",
     "@types/express": "^5.0.3",
     "@types/http-errors": "^2",
@@ -72,6 +73,7 @@
     "@overnightjs/core": "^1.7.6",
     "axios": "^1.11.0",
     "body-parser": "^2.2.0",
+    "config": "^4.1.1",
     "express": "^5.1.0",
     "module-alias": "^2.2.3"
   }
