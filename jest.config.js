@@ -1,7 +1,8 @@
 const { resolve } = require('path');
+const root = resolve(__dirname)
 
 module.exports = {
-    rootDir: resolve(__dirname, 'src'),
+    rootDir: root,
     displayName: 'root-tests',
     testMatch: ['<rootDir>/src/**/*.test.ts'],
     testEnvironment: 'node',
@@ -9,6 +10,6 @@ module.exports = {
     preset: 'ts-jest',
     moduleNameMapper: {
         '@src/(.*)': '<rootDir>/src/$1',
-        '@tests/(.*)': '<rootDir>/tests/$1',
+        '@test/(.*)': '<rootDir>/test/$1',
     },
 };
